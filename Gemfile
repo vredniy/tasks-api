@@ -9,6 +9,7 @@ gem 'rails-api'
 
 group :development do
   gem 'sqlite3'
+  gem 'pry-rails'
 end
 
 group :production do
@@ -17,6 +18,8 @@ end
 
 gem 'rabl'
 gem 'oj'
+
+gem 'devise'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
